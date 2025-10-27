@@ -18,3 +18,7 @@ go run main.go
 ```
 
 Le serveur sera accessible sur http://localhost:8080
+
+# Difference entre git reset et git revert
+
+La commande git reset modifie l'historique des commits en déplaçant le pointeur de branche vers un commit antérieur, ce qui peut supprimer des commits et altérer l'historique existant. En revanche, git revert crée un nouveau commit qui inverse les modifications apportées par un commit spécifique, sans modifier l'historique existant.
