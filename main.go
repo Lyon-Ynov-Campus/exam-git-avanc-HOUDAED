@@ -6,13 +6,10 @@ import (
 	"net/http"
 )
 
-<<<<<<< HEAD
-=======
 func URLHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>URL visitée</h1><p>Vous avez visité : %s</p>", r.URL.Path)
 }
 
->>>>>>> dev
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "<h1>Site Web en Go</h1><p>Page d'accueil</p>")
