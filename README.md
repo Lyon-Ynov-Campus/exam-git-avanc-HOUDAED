@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Kqm1gA2H)
-=======
->>>>>>> dev
 # Site Web en Go
 
 Ce projet est un site web développé en Go qui affiche une page vide pour le moment. 
 
 ## Fonctionnalités
 
-Le site affiche pour le moment une page vide. Une fonctionnalité sera développée en parallèle, depuis la branche dev déjà existante.
+Le site affiche pour le moment une page vide. deux fonctionnalités seront développées en parallèle, depuis la branche dev déjà existante.
 
 ## Installation
 
@@ -18,7 +14,3 @@ go run main.go
 ```
 
 Le serveur sera accessible sur http://localhost:8080
-
-# Difference entre git reset et git revert
-
-La commande git reset modifie l'historique des commits en déplaçant le pointeur de branche vers un commit antérieur, ce qui peut supprimer des commits et altérer l'historique existant. En revanche, git revert crée un nouveau commit qui inverse les modifications apportées par un commit spécifique, sans modifier l'historique existant.
